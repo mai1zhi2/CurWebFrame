@@ -1,0 +1,4 @@
+Login_ddt_case: [["xxx@qq.com","password","login_success","感谢使用"],
+                 ["xxx@qq.com","pass","password_error","密码无效"],
+                 ["qq.com","password","username_error","无效用户名"],
+                 ["xxx@qq.com", "", "no_password", "为空"]]

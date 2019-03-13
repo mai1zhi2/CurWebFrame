@@ -1,0 +1,107 @@
+CurWebFrame
+=============================
+############环境说明
+python3.6
+selenium3.11
+
+############目录结构
+│  README.me
+│  runcase.py  //运行
+│
+├─.idea
+│      CurWebFrame.iml
+│      encodings.xml
+│      misc.xml
+│      modules.xml
+│      workspace.xml
+│
+├─base  //封装方法，待完善
+│  │  find_element.py
+│  │  __init__.py
+│  │
+│  └─__pycache__
+│          find_element.cpython-36.pyc
+│          __init__.cpython-36.pyc
+│
+├─business  //业务层，负责验证
+│  │  forgetpass_business.py
+│  │  login_business.py
+│  │  __init__.py
+│  │
+│  └─__pycache__
+│          forgetpass_business.cpython-36.pyc
+│          login_business.cpython-36.pyc
+│          __init__.cpython-36.pyc
+│
+├─case  //Page object模式，每个页面定义为一个类
+│  │  background.py
+│  │  Forgetpass_ddt_case.py
+│  │  Login_ddt_case.py
+│  │  __init__.py
+│  │
+│  └─__pycache__
+│          Forgetpass_ddt_case.cpython-36.pyc
+│          Login_ddt_case.cpython-36.pyc
+│
+├─config
+│      casedata.xls  //excel数据驱动的方式
+│      cookies.json  //cookies的存储
+│      data.yaml  //yaml数据驱动的方式
+│      LocalElement.ini  //浏览器、日志、邮件等相关配置，元素的定位信息
+│      __init__.py
+│
+├─handle  //操作层，负责操作元素
+│  │  forgetpass_handle.py
+│  │  login_handle.py
+│  │  __init__.py
+│  │
+│  └─__pycache__
+│          forgetpass_handle.cpython-36.pyc
+│          login_handle.cpython-36.pyc
+│          __init__.cpython-36.pyc
+│
+├─log  //日志的记录
+│  │  user_log.py
+│  │  __init__.py
+│  │
+│  ├─logs
+│  └─__pycache__
+│          user_log.cpython-36.pyc
+│          __init__.cpython-36.pyc
+│
+├─page  //元素层，负责选取元素
+│  │  forgetpass_page.py
+│  │  login_page.py
+│  │  __init__.py
+│  │
+│  └─__pycache__
+│          forgetpass_page.cpython-36.pyc
+│          login_page.cpython-36.pyc
+│          __init__.cpython-36.pyc
+│
+├─report //生成相关的报告及对应的截图
+│  │  __init__.py
+│  │
+│  └─2019
+│      └─03
+│          └─10
+│                  0310220401.html
+│
+└─util  //相关操作工具
+    │  excel_util.py
+    │  HTMLTestRunner_cn.py
+    │  mkdir.py
+    │  read_ini.py
+    │  read_yaml.py
+    │  select_browser.py
+    │  send_email.py
+    │  __init__.py
+    │
+    └─__pycache__
+            HTMLTestRunner_cn.cpython-36.pyc
+            mkdir.cpython-36.pyc
+            read_ini.cpython-36.pyc
+            read_yaml.cpython-36.pyc
+            select_browser.cpython-36.pyc
+            send_email.cpython-36.pyc
+            __init__.cpython-36.pyc

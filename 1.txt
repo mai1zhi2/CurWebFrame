@@ -1,0 +1,107 @@
+文件夹 PATH 列表
+卷序列号为 2DA7-7F17
+C:.
+│  1.txt
+│  README.me
+│  runcase.py
+│  
+├─.idea
+│      CurWebFrame.iml
+│      encodings.xml
+│      misc.xml
+│      modules.xml
+│      workspace.xml
+│      
+├─base
+│  │  find_element.py
+│  │  __init__.py
+│  │  
+│  └─__pycache__
+│          find_element.cpython-36.pyc
+│          __init__.cpython-36.pyc
+│          
+├─business
+│  │  forgetpass_business.py
+│  │  login_business.py
+│  │  __init__.py
+│  │  
+│  └─__pycache__
+│          forgetpass_business.cpython-36.pyc
+│          login_business.cpython-36.pyc
+│          __init__.cpython-36.pyc
+│          
+├─case
+│  │  background.py
+│  │  Forgetpass_ddt_case.py
+│  │  Login_ddt_case.py
+│  │  __init__.py
+│  │  
+│  └─__pycache__
+│          Forgetpass_ddt_case.cpython-36.pyc
+│          Login_ddt_case.cpython-36.pyc
+│          
+├─config
+│      casedata.xls
+│      cookies.json
+│      data.yaml
+│      LocalElement.ini
+│      __init__.py
+│      
+├─handle
+│  │  forgetpass_handle.py
+│  │  login_handle.py
+│  │  __init__.py
+│  │  
+│  └─__pycache__
+│          forgetpass_handle.cpython-36.pyc
+│          login_handle.cpython-36.pyc
+│          __init__.cpython-36.pyc
+│          
+├─log
+│  │  user_log.py
+│  │  __init__.py
+│  │  
+│  ├─logs
+│  └─__pycache__
+│          user_log.cpython-36.pyc
+│          __init__.cpython-36.pyc
+│          
+├─page
+│  │  forgetpass_page.py
+│  │  login_page.py
+│  │  __init__.py
+│  │  
+│  └─__pycache__
+│          forgetpass_page.cpython-36.pyc
+│          login_page.cpython-36.pyc
+│          __init__.cpython-36.pyc
+│          
+├─report
+│  │  __init__.py
+│  │  
+│  └─2019
+│      └─03
+│          └─10
+│                  0310220401.html
+│                  
+└─util
+    │  excel_util.py
+    │  HTMLTestRunnerCN.py
+    │  HTMLTestRunner_cn.py
+    │  mkdir.py
+    │  read_ini.py
+    │  read_yaml.py
+    │  select_browser.py
+    │  send_email.py
+    │  __init__.py
+    │  
+    └─__pycache__
+            HTMLTestRunnerCN.cpython-36.pyc
+            HTMLTestRunner_cn.cpython-36.pyc
+            mkdir.cpython-36.pyc
+            read_ini.cpython-36.pyc
+            read_yaml.cpython-36.pyc
+            select_browser.cpython-36.pyc
+            send_email.cpython-36.pyc
+            __init__.cpython-36.pyc
+            
